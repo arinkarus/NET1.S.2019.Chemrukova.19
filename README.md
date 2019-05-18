@@ -62,9 +62,17 @@
  - Book record: Jon Skeet, C# in Depth
  - Book record: C# in Depth, 2019, "Manning"
  - Book record: C# in Depth и т.д.
- 
-Разработать модульные тесты. [Done](https://github.com/arinkarus/NET1.S.2019.Chemrukova.08/blob/master/Books/Entities/Book.cs)
+Разработать модульные тесты. 
 
 3. **(deadline - 03.04.2019, 24.00)** Не изменяя класс Book, добавить для объектов данного класса дополнительную (любую не существующую у класса изначально) возможность 
-форматирования, не предусмотренную классом. Разработать модульные тесты. [Done](https://github.com/arinkarus/NET1.S.2019.Chemrukova.08/blob/master/Books/FormatProviders/BookFormatProvider.cs)
-4. **(deadline - 02.04.2019, 24.00)** Представить решение задачи [Day 4 - 26.03.2019. Task 3](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%204%20-%2026.03.2019) в виде дополнительной возможности форматного вывода вещественного числа. Разработать модульные тесты. [Done](https://github.com/arinkarus/NET1.S.2019.Chemrukova.04-05/blob/master/DoubleFormatting/DoubleFormatProvider.cs)
+форматирования, не предусмотренную классом. Разработать модульные тесты. 
+4. **(deadline - 02.04.2019, 24.00)** Представить решение задачи [Day 4 - 26.03.2019. Task 3](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%204%20-%2026.03.2019) в виде дополнительной возможности форматного вывода вещественного числа. Разработать модульные тесты. [Done]
+
+## Реализация (Done)
+1. - [Решение](https://github.com/arinkarus/29.04.2019)
+2. - [Добавлен IFormattable для Book](https://github.com/arinkarus/NET1.S.2019.Chemrukova.08/blob/master/Books/Entities/Book.cs)
+   - [Тесты](https://github.com/arinkarus/NET1.S.2019.Chemrukova.08/blob/master/Books.Tests/BooksTests.cs)
+3. - [BookFormatProvider](https://github.com/arinkarus/NET1.S.2019.Chemrukova.08/blob/master/Books/FormatProviders/BookFormatProvider.cs)
+   - [Тесты](https://github.com/arinkarus/NET1.S.2019.Chemrukova.08/blob/master/Books.Tests/BooksTests.cs)
+4. - [DoubleFormatProvider](https://github.com/arinkarus/NET1.S.2019.Chemrukova.04-05/blob/master/DoubleFormatting/DoubleFormatProvider.cs)
+   - [Тесты](https://github.com/arinkarus/NET1.S.2019.Chemrukova.04-05/blob/master/DoubleFormatting.Tests/DoubleFormatProviderTests.cs)
